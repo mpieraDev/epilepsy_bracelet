@@ -41,6 +41,12 @@ The system was built and tested using the following components:
   ```
   Sketch → Include Library → Add .ZIP Library…
   ```
+## Electrical Circuit
+
+The following schematic shows how the components are connected (Seeed XIAO nRF52840 Sense BLE, MAX30102, Li-Po battery, and USB-C connector):
+
+![Life-Link Electrical Circuit](./docs/Wiring_LifeLink.jpg)
+
 ### Gathered Data
 All the raw data collected during the testing of the model can be consulted here: 
 
