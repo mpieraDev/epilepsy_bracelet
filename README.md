@@ -36,7 +36,7 @@ The system was built and tested using the following components:
 ### Custom / Manual Installation
 - **Epilepsy_inferencing.h**  
   This is a **custom Edge Impulse Machine Learning library** trained specifically for this project.  
-  - The header and its library files are already included in the repository under the `/Libraries` folder.
+  - The header and its library files are already included in the repository under the [`/Libraries`](./Libraries) folder.
   - Install it in Arduino IDE via:  
   ```
   Sketch → Include Library → Add .ZIP Library…
