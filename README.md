@@ -7,13 +7,12 @@ The system was built and tested using the following components:
 - **Seeed XIAO nRF52840 Sense BLE** (main microcontroller with BLE support and built-in IMU)  
 - **MAX30102 Pulse Oximeter & Heart Rate Sensor** (for heart rate and SpO2 monitoring)
 
----
-
 ## 📦 Required Libraries
 
 ### ✅ Available in Arduino Library Manager
-- **SparkFun LSM6DS3 IMU** (`LSM6DS3.h`)  
-  *Name in Library Manager:* `SparkFun LSM6DS3 Breakout - 6 DoF IMU` (author: SparkFun)
+- **Seeed LSM6DS3 IMU** (`LSM6DS3.h`)  
+  *Repository:* [Seeed_Arduino_LSM6DS3](https://github.com/Seeed-Studio/Seeed_Arduino_LSM6DS3)  
+  > Installable directly from Arduino Library Manager as **Seeed Arduino LSM6DS3** (author: Seeed Studio).
 
 - **U8g2** (`U8g2lib.h`, `U8X8lib.h`)  
   *Name in Library Manager:* `U8g2` (author: olikraus)  
@@ -31,13 +30,14 @@ The system was built and tested using the following components:
 - **Wire** (`Wire.h`)  
   *Already included* in the Arduino core (no installation required).
 
-### 🔁 Requires manual installation (ZIP)
+### 🔁 Custom / Manual Installation
 - **Epilepsy_inferencing.h**  
-  This header is generated from an **Edge Impulse project**.  
-  - Download the Arduino library ZIP from Edge Impulse (*Deployment → Arduino library*).  
-  - In Arduino IDE: `Sketch → Include Library → Add .ZIP Library…` and select the downloaded ZIP.
-
----
-
-> 💡 Tip: After installing, check `Sketch → Include Library` in Arduino IDE to confirm all libraries are available.
-
+  This is a **custom Edge Impulse Machine Learning library** trained specifically for this project.  
+  - The header and its library files are already included in the repository under the `/Libraries` folder.  
+  - If you want to regenerate it:  
+    1. Go to [Edge Impulse](https://edgeimpulse.com).  
+    2. Train your model and export it as an **Arduino Library**.  
+    3. Install it in Arduino IDE via:  
+       ```
+       Sketch → Include Library → Add .ZIP Library…
+       ```
