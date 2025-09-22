@@ -1,6 +1,6 @@
 # epilepsy_bracelet
 
-## 🛠 Hardware Components
+## Hardware Components
 
 The system was built and tested using the following components:
 
