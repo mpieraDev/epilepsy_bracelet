@@ -45,6 +45,17 @@ The system was built and tested using the following components:
 All the raw data collected during the testing of the model can be consulted here: 
 
 [Google Sheets – Epilepsy Bracelet Data](https://docs.google.com/spreadsheets/d/1n8vqtZVGNrSCoL_-IGgtQALlc3gfnVIjh_hOWvuD3p8/edit?usp=sharing)  
+
+## App Demo (MIT App Inventor)
+
+A **mini demo** of the companion app was created using **MIT App Inventor**.  
+Since it uses custom components, it could not be published in the official MIT App Inventor Gallery.  
+
+For this reason, the **APK file** is provided directly in the repository, inside the [`/app`](./app) folder.  
+Anyone interested can download and install it on their Android device to try out the demo.  
+
+Please note: this is only a **demo version** and not a fully developed production app.
+
   
 ## Electrical Circuit
 
