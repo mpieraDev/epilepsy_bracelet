@@ -41,3 +41,7 @@ The system was built and tested using the following components:
   ```
   Sketch → Include Library → Add .ZIP Library…
   ```
+### Gathered Data
+All the raw data collected during the testing of the model can be consulted here: 
+
+[Google Sheets – Epilepsy Bracelet Data](https://docs.google.com/spreadsheets/d/1n8vqtZVGNrSCoL_-IGgtQALlc3gfnVIjh_hOWvuD3p8/edit?usp=sharing)  
