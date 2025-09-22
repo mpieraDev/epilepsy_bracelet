@@ -1,5 +1,8 @@
 # epilepsy_bracelet
 
+We designed a wristband for epileptic seizure detection, linked to a mobile app capable of automatically alerting emergency services and selected contacts. We trained an AI model to recognize motion patterns associated with seizures, using an MCU with an integrated IMU and a heart rate sensor as a redundant system to reduce false positives.
+In the initial tests, after one full day of continuous use, only one false positive was recorded, showing that the model can be affected by erratic movements similar to a seizure. This prototype represents an MVP that demonstrates the system’s viability. It is worth noting that the development of a fully reliable model requires a much larger dataset and telemetry from real seizure events.
+
 ## Hardware Components
 
 The system was built and tested using the following components:
